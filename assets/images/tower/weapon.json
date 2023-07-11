@@ -1,0 +1,55 @@
+{
+    "frames": {
+        "weapon0": {
+            "frame": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "spriteSourceSize": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "sourceSize": {"w": 96,"h": 96},
+            "rotated": true,
+            "duration": 100
+        },
+        "weapon1": {
+            "frame": {"x": 96,"y": 0,"w": 96,"h": 96},
+            "spriteSourceSize": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "sourceSize": {"w": 96,"h": 96},
+            "rotated": true,
+            "duration": 100
+        },
+        "weapon2": {
+            "frame": {"x": 192,"y": 0,"w": 96,"h": 96},
+            "spriteSourceSize": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "sourceSize": {"w": 96,"h": 96},
+            "rotated": true,
+            "duration": 100
+        },
+        "weapon3": {
+            "frame": {"x": 288,"y": 0,"w": 96,"h": 96},
+            "spriteSourceSize": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "sourceSize": {"w": 96,"h": 96},
+            "rotated": true,
+            "duration": 100
+        },
+        "weapon4": {
+            "frame": {"x": 384,"y": 0,"w": 96,"h": 96},
+            "spriteSourceSize": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "sourceSize": {"w": 96,"h": 96},
+            "rotated": true,
+            "duration": 100
+        },
+        "weapon5": {
+            "frame": {"x": 480,"y": 0,"w": 96,"h": 96},
+            "spriteSourceSize": {"x": 0,"y": 0,"w": 96,"h": 96},
+            "sourceSize": {"w": 96,"h": 96},
+            "rotated": true,
+            "duration": 100
+        }
+    },
+    "meta": {
+        "image": "weapon.png",
+        "format": "RGBA8888",
+        "size": {"w": 576,"h": 96},
+        "scale": "1"
+    },
+    "animations": {
+        "weapon": ["weapon0", "weapon1", "weapon2", "weapon3", "weapon4", "weapon5"]
+    }
+}
