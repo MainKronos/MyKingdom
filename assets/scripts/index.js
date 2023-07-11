@@ -50,10 +50,10 @@ async function start(){
 }
 
 async function loadAssets(){
-    assets.tower = await PIXI.Assets.load('/assets/images/tower/tower.json');
-    assets.weapon = await PIXI.Assets.load('/assets/images/tower/weapon.json');
-    assets.projectile = await PIXI.Assets.load('/assets/images/tower/projectile.json');
-    assets.impact = await PIXI.Assets.load('/assets/images/tower/impact.json');
+    assets.tower = await PIXI.Assets.load('assets/images/tower/tower.json');
+    assets.weapon = await PIXI.Assets.load('assets/images/tower/weapon.json');
+    assets.projectile = await PIXI.Assets.load('assets/images/tower/projectile.json');
+    assets.impact = await PIXI.Assets.load('assets/images/tower/impact.json');
 }
 
 // Call start
